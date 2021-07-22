@@ -32,7 +32,7 @@ That said, Caravela is already a wonderful playground. It already implements a l
 
 ## Design-time features
 
-- Creating [live templates](https://doc.postsharp.net/caravela/aspects/ordering), i.e. complex code transformations, like aspect, but that are executed from the lightbulb menu in the editor, and modified your source code.
+- Creating [live templates](https://doc.postsharp.net/caravela/aspects/creating-live-template), i.e. complex code transformations, like aspects, but that are executed from the lightbulb menu in the editor and applied to your source code.
 - Syntax highlighting of aspects ([Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.caravela) required).
 
 ## Testing
