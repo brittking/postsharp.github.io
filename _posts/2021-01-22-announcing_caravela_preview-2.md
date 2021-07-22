@@ -2,7 +2,7 @@
 layout: post 
 comments: true
 title: "Announcing PostSharp \"Caravela\" Preview 2 (0.3.5)"
-date: 2021-01-25 15:30:00 +02:00
+date: 2021-07-22 15:30:00 +02:00
 categories: ["Announcement", "Caravela"]
 permalink: /post/announcing-caravela-preview-2.html
 author: "Gael Fraiteur"
@@ -10,7 +10,7 @@ image: /assets/images/blog/2021-01-25-caravela-announcement/Project Caravela 1.p
 tag: featured
 ---
 
-> __TLDR__: We've made it! The Roslyn-based "Caravela" can now implement INotifyPropertyChanged and aspect-oriented way and you can [try it in your browser](https://try.postsharp.net/#inpc). But watch out! You can run with a knife that's in preview, but not in production code.
+We've made it! The Roslyn-based "Caravela" can now implement INotifyPropertyChanged and aspect-oriented way and you can [try it in your browser](https://try.postsharp.net/#inpc). But watch out! You can run with a knife that's in preview, but not in production code.
 
 If you haven't heard from us for three months, it's because we have been badly hit by the COVID/lockdown mess in April. We're now working with a smaller team, have more energy than _ever_, and we have chosen to focus it on our top priority: code, not words.
 
