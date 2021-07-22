@@ -7,7 +7,6 @@ categories: ["Announcement", "Caravela"]
 permalink: /post/announcing-caravela-preview.html
 author: "Gael Fraiteur"
 image: /assets/images/blog/2021-01-25-caravela-announcement/Project Caravela 1.png
-tag: featured
 ---
 Today we're excited to make a one-in-ten-years announcement: we're releasing the first public
 preview of PostSharp "Caravela", a Roslyn-based framework for code transformation and aspect-oriented 
