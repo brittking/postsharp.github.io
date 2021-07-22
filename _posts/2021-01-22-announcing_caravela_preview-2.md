@@ -12,7 +12,7 @@ tag: featured
 
 > __TLDR__: We've made it! The Roslyn-based "Caravela" can now implement INotifyPropertyChanged and aspect-oriented way and you can [try it in your browser](https://try.postsharp.net/#inpc). But watch out! You can run with a knife that's in preview, but not in production code.
 
-If you haven't heard from us for six months, it's because we have been badly hit by the COVID/lockdown mess in April. We're now working with a smaller team, have more energy than _ever_, and we have chosen to focus it on our top priority: code, not words.
+If you haven't heard from us for three months, it's because we have been badly hit by the COVID/lockdown mess in April. We're now working with a smaller team, have more energy than _ever_, and we have chosen to focus it on our top priority: code, not words.
 
 Today, we're excited to announce the second preview of PostSharp "Caravela", our new Roslyn-based meta-programming framework for aspect-oriented programming, code generation and code validation. PostSharp "Caravela" is to become the successor of the MSIL-based PostSharp Framework and PostSharp SDK.
 
