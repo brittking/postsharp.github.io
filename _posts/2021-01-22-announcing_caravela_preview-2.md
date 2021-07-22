@@ -16,7 +16,7 @@ If you haven't heard from us for three months, it's because we have been badly h
 
 Today, we're excited to announce the second preview of PostSharp "Caravela", our new Roslyn-based meta-programming framework for aspect-oriented programming, code generation and code validation. PostSharp "Caravela" is to become the successor of the MSIL-based PostSharp Framework and PostSharp SDK.
 
-Whereas the first preview, announced six months ago, was merely a proof of concept, the current preview is built on the final architecture of the product. It implements the most useful aspect-oriented features and a large part of the C# language. As an early preview, however, it is still unsuitable for production use. The most noticeable gap is the lack of support for async methods and the poor handling of warnings, including nullability warnings. Caravela still does not cover all the features of the "old" PostSharp, so you're excited to port your aspects to the new stack &ndash; wait.
+Whereas the first preview, announced six months ago, was merely a proof of concept, the current preview is built on the final architecture of the product. It implements the most useful aspect-oriented features and a large part of the C# language. As an early preview, however, it is still unsuitable for production use. The most noticeable gap is the lack of support for async methods and the poor handling of warnings, including nullability warnings. Caravela still does not cover all the features of the "old" PostSharp, so if you're excited to port your aspects to the new stack &ndash; wait.
 
 That said, Caravela is already a wonderful playground. It already implements a load of feature. For examples and demos, follow the links below.
 
@@ -32,7 +32,7 @@ That said, Caravela is already a wonderful playground. It already implements a l
 
 ## Design-time features
 
-- Creating [live templates](https://doc.postsharp.net/caravela/aspects/ordering), i.e. complex code transformations, like aspect, but that are executed from the lightbulb menu in the editor, and modified your source code.
+- Creating [live templates](https://doc.postsharp.net/caravela/aspects/creating-live-template), i.e. complex code transformations, like aspects, but that are executed from the lightbulb menu in the editor and applied to your source code.
 - Syntax highlighting of aspects ([Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.caravela) required).
 
 ## Testing
