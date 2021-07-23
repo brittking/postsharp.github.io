@@ -2,7 +2,7 @@
 layout: post 
 comments: true
 title: "Announcing PostSharp \"Caravela\" Preview 2 (0.3.5)"
-date: 2021-07-22 15:30:00 +02:00
+date: 2021-07-23 08:30:00 +02:00
 categories: ["Announcement", "Caravela"]
 permalink: /post/announcing-caravela-preview-2.html
 author: "Gael Fraiteur"
@@ -80,8 +80,8 @@ namespace Caravela.Samples.NotifyPropertyChanged
         {
             if ( value != meta.Property.Value )
             {
-                this.OnPropertyChanged(meta.Property.Name);
                 meta.Proceed();
+                this.OnPropertyChanged(meta.Property.Name);
             }
 
             return value;
@@ -110,7 +110,7 @@ Here is an example:
 
 ## Testing
 
-We have built a dedicated [xUnit-based framework](https://doc.postsharp.net/caravela/aspects/testing/testing) to test aspects. A test constitutes of at least two files: an input file, which corresponds to the source code, and an output file, which contains the expected transformed code. The test consists in comparing the expected transformed code with the actual code, as transformed by the aspect.
+We have built a dedicated [xUnit-based framework](https://doc.postsharp.net/caravela/aspects/testing/compile-time-testing) to test aspects. A test constitutes of at least two files: an input file, which corresponds to the source code, and an output file, which contains the expected transformed code. The test consists in comparing the expected transformed code with the actual code, as transformed by the aspect.
 
 ## Samples and Documentation
   
@@ -128,3 +128,6 @@ For feedback and questions, please use our [GitHub discussion board](https://git
 Happy PostSharping!
 
 -gael
+
+
+_UPDATE:_ Fixed the code example (thanks DomasM).
