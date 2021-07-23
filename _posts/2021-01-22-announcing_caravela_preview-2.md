@@ -96,26 +96,28 @@ namespace Caravela.Samples.NotifyPropertyChanged
 
 Creating [live templates](https://doc.postsharp.net/caravela/aspects/creating-live-template), i.e. complex code transformations, like aspects, but that are executed from the lightbulb menu in the editor and applied to your source code.
 
-  ![Screenshot](/assets/images/blog/2021-07-22-caravela/LiveTemplate2.png)
+![Screenshot](/assets/images/blog/2021-07-22-caravela/LiveTemplate2.png#unzoom150)
 
 ### Syntax highlighting of aspects
 
+If you install our [Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.caravela), you will get additional syntax highlighting for template code: compile-time code will be displayed on a grayed background, while run-time code will be displayed normally.
+
 Here is an example:
 
-![Screenshot](/assets/images/blog/2021-07-22-caravela/SyntaxHighlighting.png)
+![Screenshot](/assets/images/blog/2021-07-22-caravela/SyntaxHighlighting.png#unzoom150)
 
-Our [Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=PostSharpTechnologies.caravela) required.
+
 
 ## Testing
 
-  -  A dedicated xUnit-based [testing framework](https://doc.postsharp.net/caravela/aspects/testing/testing) for aspects.
+We have built a dedicated [xUnit-based framework](https://doc.postsharp.net/caravela/aspects/testing/testing) to test aspects. A test constitutes of at least two files: an input file, which corresponds to the source code, and an output file, which contains the expected transformed code. The test consists in comparing the expected transformed code with the actual code, as transformed by the aspect.
 
-## Documentation
+## Samples and Documentation
   
 - [try.postsharp.net](https://try.postsharp.net/), an online tool to try Caravela without installing it on your machine (a fork of try.dot.net);
 - A dozen of open-source [samples](https://github.com/postsharp/Caravela.Samples);
 - A reasonably complete [online documentation](https://doc.postsharp.net/caravela) with code snippets that can be executed and edited online thanks to [try.postsharp.net](https://try.postsharp.net/),
-[automatically and comprehensively tested](https://github.com/postsharp/Caravela/tree/master/code/Caravela.Documentation.SampleCode.AspectFramework).
+automatically and comprehensively [tested](https://github.com/postsharp/Caravela/tree/master/code/Caravela.Documentation.SampleCode.AspectFramework).
 
 ## Summary
 
