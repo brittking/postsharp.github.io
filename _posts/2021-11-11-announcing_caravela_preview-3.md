@@ -81,7 +81,7 @@ Without defining an aspect class, you can programmatically introduce new members
 
 ### Modifying _source_ code with an aspect at design time
 
-All of the examples above only modify intermediate code, not the_source_code, which keeps things clean and readable. We call this a _live template_ because an aspect, by definition, does not modify the source code. However, any aspect can be used as a live template. 
+All of the examples above only modify intermediate code, not the _source_ code, which keeps things clean and readable. We call this a _live template_ because an aspect, by definition, does not modify the source code. However, any aspect can be used as a live template. 
 
 ![Live template](/assets/images/blog/2021-11-caravela-preview/live-template.png#unzoom200)
 
