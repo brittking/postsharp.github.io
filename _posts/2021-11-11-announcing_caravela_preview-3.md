@@ -10,7 +10,7 @@ image: /assets/images/blog/2021-01-25-caravela-announcement/Project Caravela 1.p
 tag: featured
 ---
 
-The final preview of PostSharp "Caravela", our Roslyn-based replacement of our MSIL-based PostSharp Framework, is now available. fIt should work with most codebases, support the complete C# 9 language, and has a very respectable set of aspect-oriented features. This preview is the last we're releasing under the codename "Caravela". 
+The final preview of PostSharp "Caravela", our Roslyn-based replacement of our MSIL-based PostSharp Framework, is now available. It should work with most codebases, support the complete C# 9 language, and has a very respectable set of aspect-oriented features. This preview is the last we're releasing under the codename "Caravela". 
 
 You can try Caravela today on sample projects, but it is [not recommended](#what-does-not-work-yet) to use it in production projects.
 
