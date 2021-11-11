@@ -118,6 +118,9 @@ Although the list of features that work is already long and you might want to gi
 * It's not the final name! "Caravela" is a code name, and we still need to reveal the final name and rename all packages and namespaces.
 * Logging and telemetry is not implemented, so we cannot assist users in troubleshooting, and cannot pro-actively solve bugs.
 * It's insufficiently tested with large projects and solutions. Actually, it is almost only tested with unit tests and sample projects.
+* Aspect initialization is not implemented.
+* You cannot add aspects to operators and constructors.
+* There are some gaps in the design-time experience.
 * We want to add more features into code validation and design-time code generation
 
 ## Summary
