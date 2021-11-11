@@ -6,8 +6,7 @@ date: 2021-07-23 08:30:00 +02:00
 categories: ["Announcement", "Caravela"]
 permalink: /post/announcing-caravela-preview-2.html
 author: "Gael Fraiteur"
-image: /assets/images/blog/2021-01-25-caravela-announcement/Project Caravela 1.png
-tag: featured
+image: /assets/images/blog/2021-01-25-caravela-announcement/Project Caravela 1.png 
 ---
 
 We've made it! The Roslyn-based "Caravela" can now implement INotifyPropertyChanged and aspect-oriented way and you can [try it in your browser](https://try.postsharp.net/#inpc). But watch out! You can run with a knife that's in preview, but not in production code.

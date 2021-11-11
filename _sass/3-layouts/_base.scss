@@ -47,3 +47,15 @@ img[src*="#unzoom150"] {
     padding: 20px;
     zoom: 66.667%;
  }
+
+ img[src*="#unzoom200"] {
+    border: lightgrey solid 1px;
+    padding: 20px;
+    zoom: 50%;
+ }
+
+ img[src*="#unzoom300"] {
+    border: lightgrey solid 1px;
+    padding: 20px;
+    zoom: 33.33%;
+ }
